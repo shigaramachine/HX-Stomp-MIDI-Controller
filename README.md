@@ -7,42 +7,33 @@ https://www.youtube.com/watch?v=a6haMZYRh88
 https://www.youtube.com/watch?v=NwTq1BymgeI
 https://www.youtube.com/watch?v=xnnnCItbekE
 # Features
-Simple making.  
-Wi-Fi AP.  
-Web server as controller by smart phone.  
+Simple making.
+Wi-Fi AP.
+Web server as controller by smart phone.
 # Dev Requirement
-Arduino IDE  
-ESP8266 dev module  
-9v adaptor  
-MIDI cable  
-and BOM  
+Arduino IDE
+ESP8266 dev module
+9v adaptor
+MIDI cable
+and BOM
 # HW
 https://user-images.githubusercontent.com/89654838/131243695-08820e49-8a24-4fac-9074-e11442c1b938.PNG
 
 # software
 https://user-images.githubusercontent.com/89654838/131243694-312a642e-f8b8-41bd-9b6c-46d505483e81.PNG
-
-You have to install below libraries.
-#include <ESP8266WiFi.h>
-#include <ESPAsyncTCP.h>
-#include <ESPAsyncWebServer.h>
-#include <MIDI.h>
-#include <Ticker.h>
-#include <Bounce2.h>
-
 # Note
-You can use this commander for another effecters.  
+You can use this commander for another effecters.
 (you have to change command information.)
  # BOM
-NodeMCU v3 (ESP8266 board)  
-Momentary Switch * 6 (For command)  
-Momentary Switch * 1 (Mode Change)  
-9V power Jack * 1  
-MIDI 5Pin Jack * 1  
-Register 10Ω(Tx Pin)  
-Register 33Ω(3V Pin)  
-Cables   
-Enclosure  
+NodeMCU v3 (ESP8266 board)
+Momentary Switch * 6 (For command)
+Momentary Switch * 1 (Mode Change)
+9V power Jack * 1
+MIDI 5Pin Jack * 1
+Register 10Ω(Tx Pin)
+Register 33Ω(3V Pin)
+Cables 
+Enclosure
 # Author
  
 * shigarashige
