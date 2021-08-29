@@ -9,7 +9,9 @@
 #include "pin_config.h"
 
 void setup(){
-  // Serial port for debugging purposes
+  // Serial port for debugging purposes 
+  // When you debug programming, stop the midi process.
+
   //Serial.begin(115200);
   //Serial.println("Start Setup");
   pinMode(LED_BUILTIN, OUTPUT);

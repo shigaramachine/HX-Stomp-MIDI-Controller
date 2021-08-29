@@ -1,7 +1,9 @@
 /**
  * @file      midi_command.ino
  * @brief     midi command
- * @note      
+ * @note      This command for HX stomp. 
+ *            If you want use anoter effector controller, 
+ *            change this command.
  * @author    shigara
  * @copyright 
  */
@@ -24,7 +26,9 @@ MIDI_CREATE_DEFAULT_INSTANCE();
 
 void SetupMidi(void)
 {
-    MIDI.begin();
+  //If you want to do serial debug.
+  //Remove this MIDI.begin line.(Because MIDI also use TX RX lines.)
+  MIDI.begin();
 }
 
 //mode 1 Looper
